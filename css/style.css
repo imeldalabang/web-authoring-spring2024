@@ -1,0 +1,47 @@
+body{
+    font-family:'Trebuchet MS','Lucida Sans Unicode','Lucida Grande','Lucida Sans',Arial,sans-serif;
+    background-color:#B2D732;
+}
+@font-face{
+    font-family: Eater;
+    src: url('../font/Eater/Eater-Regular.ttf') format("truetype"),
+         url('../font/Eater/Eater-Regular.ttf') format("woff");
+}
+h1{
+    font-family: Eater,cursive;
+    font-weight: 900;
+    font-size: xx-large;
+    text-shadow: 2px 2px 1px whitesmoke;
+    background-color: #2B3409;
+}
+article{
+    background-color: #F7D4E3;
+}
+h3{
+    color: #696969;
+}
+.family{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+}
+#list{
+    color:#454545;
+}
+#copy{
+    color: #BFBFBF;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.3em;
+    font-weight: bold;
+    color: #2B3409;
+}
+.nav{
+    color: #671930;
+}
+.color{
+    color: #F8BFD7;
+}
+footer{
+    background-color: #2B3409;
+}
