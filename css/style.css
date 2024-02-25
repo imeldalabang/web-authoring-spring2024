@@ -1,48 +1,72 @@
-body{
-    font-family:'Trebuchet MS','Lucida Sans Unicode','Lucida Grande','Lucida Sans',Arial,sans-serif;
-    background-color:#B2D732;
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #B2D732;
 }
-@font-face{
+
+@font-face {
     font-family: Eater;
     src: url('../font/Eater/Eater-Regular.ttf') format("truetype"),
-         url('../font/Eater/Eater-Regular.ttf') format("woff");
+        url('../font/Eater/Eater-Regular.ttf') format("woff");
 }
-h1{
-    font-family: Eater,cursive;
+
+h1 {
+    font-family: Eater, cursive;
     font-weight: 900;
     font-size: xx-large;
     text-shadow: 2px 2px 1px whitesmoke;
     background-color: #2B3409;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#2b3409+13,2989d8+41,2989d8+42,2989d8+42,2989d8+54,207cca+68,f7d4e3+100 */
+    background: linear-gradient(to right,  #2b3409 13%,#2989d8 41%,#2989d8 42%,#2989d8 42%,#2989d8 54%,#207cca 68%,#f7d4e3 100%);
+    padding: 20px;
 }
-article{
+
+main {
     background-color: #F7D4E3;
+    margin: 40px;
 }
-h3{
+h2{
+    padding-left: 10px;
+}
+
+h3 {
     color: #696969;
 }
-.family{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+article{
+    padding: 40px;
+}
+.family {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: x-large;
 }
-#list{
-    color:#454545;
+
+#list {
+    color: #454545;
 }
-#copycolor{
+
+#copycolor {
     color: #BFBFBF;
 }
-p{
+footer.vscode {
+    background-image: url(../images/htmlimage.png);
+}
+
+p {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.3em;
     font-weight: bold;
     font-size: 1.1em;
     color: #2B3409;
 }
-.nav{
-    color: #671930;
-}
-.color{
+
+.color {
     color: #F8BFD7;
 }
-footer{
+
+footer {
     background-color: #2B3409;
 }
+
+a:link { color:rgba(73, 136, 144, 0.923); }
+a:visited { color:rgba(135, 88, 18, 0.803); } 
+a:hover { color: #FE2712; }
+a:active { color:black; } 
