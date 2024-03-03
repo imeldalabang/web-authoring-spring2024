@@ -17,22 +17,15 @@ h1 {
     background-color: #2B3409;
     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#2b3409+13,2989d8+41,2989d8+42,2989d8+42,2989d8+54,207cca+68,f7d4e3+100 */
     background: linear-gradient(to right,  #2b3409 13%,#2989d8 41%,#2989d8 42%,#2989d8 42%,#2989d8 54%,#207cca 68%,#f7d4e3 100%);
-    padding: 20px;
 }
 
-main {
+article {
     background-color: #F7D4E3;
-    margin: 40px;
 }
-h2{
-    padding-left: 10px;
-}
+
 
 h3 {
     color: #696969;
-}
-article{
-    padding: 40px;
 }
 .family {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -56,6 +49,9 @@ p {
     font-weight: bold;
     font-size: 1.1em;
     color: #2B3409;
+}
+nav{
+    background-color:#EBEFB3;
 }
 
 .color {
