@@ -56,33 +56,20 @@ figcaption {
     clear: both;   
 }
 
-
-.layout{
+.flex1{
+    order: 0;
+    flex: 1 1 auto;
+    width: 29vw;
+    margin: 0.5vw;
+    min-width: 350px;
+  }
+.SectionArticles{
     display: flex;
     flex-flow: row wrap;
     align-content: center;
     align-items: stretch;
-    justify-content: flex-start;
-}
-.flex1{
-    order: 0;
-    flex: 1 0 10%;
-    align-self: flex-start;
-  }
-.flex2{
-    order: 0;
-    flex: 1 0 10%;
-    align-self: flex-start;
-}
-.flex3{
-    order: 0;
-    flex: 1 0 10%;
-    align-self: flex-start;
-}
-.flex4{
-    order: 1;
-    flex: 0 1 10%;
-    align-self: flex-start;
+    justify-content: space-around;
+
 }
 
   
