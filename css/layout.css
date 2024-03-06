@@ -16,7 +16,7 @@ article{
     clear: both;
     box-sizing: border-box;
     padding: 40px;
-    margin-top: 15px;
+    margin-top: 20px;
     border: 2px black groove;
     width:auto;
     border-radius: 10px;
@@ -54,5 +54,37 @@ figure img{
 }
 figcaption {
     clear: both;   
+}
+
+
+.layout{
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    align-items: stretch;
+    justify-content: flex-start;
+}
+.flex1{
+    order: 0;
+    flex: 1 0 10%;
+    align-self: flex-start;
   }
+.flex2{
+    order: 0;
+    flex: 1 0 10%;
+    align-self: flex-start;
+}
+.flex3{
+    order: 0;
+    flex: 1 0 10%;
+    align-self: flex-start;
+}
+.flex4{
+    order: 1;
+    flex: 0 1 10%;
+    align-self: flex-start;
+}
+
   
+  
+   
