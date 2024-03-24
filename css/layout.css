@@ -9,7 +9,7 @@ html {
 
 
 main{
-    margin: 40px;
+    margin: 20px;
 }
 article{
     content: "";
@@ -28,8 +28,8 @@ h1{
     padding: 20px;
 }
 nav{
-    padding: 10px;
-    position: sticky;
+    padding: 20px;
+    /*position: sticky;*/
     top: 0;
 }
 header{
