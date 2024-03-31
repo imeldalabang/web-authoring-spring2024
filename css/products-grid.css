@@ -13,6 +13,11 @@
     footer{
         text-align: center;
     }
+    .navig li {
+        list-style-type: none;
+        margin-left: 5px;
+        padding-bottom: 10px;
+    }
 
 
 
