@@ -42,7 +42,19 @@ header img{
     z-index: 10;
     height:auto;
     max-width: 100%;
-}
+    background-image: url('/images/laptoplogo.png');
+    animation-name: head;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    }
+    @keyframes head {
+          0% { transform:rotate(0);}
+          25% { transform:rotate(-90deg);}
+          50% { transform:rotate(-180deg);}
+          75% { transform:rotate(-270deg);}
+          100% { transform:rotate(-360deg);}
+    }
+    
 figure img{
     display: block;
     clear: both;
