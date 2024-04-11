@@ -25,7 +25,7 @@
     header img{
         display: block;
     }
-    body{
+    .light-green-Bc{
         display: grid;
     grid-template-rows: [header-start]122px [content-start] auto [aside]auto [footer-start]100px;
     grid-template-columns: [nav] 200px [main]auto;
@@ -66,7 +66,7 @@
 
 }
 @media only screen and (min-width: 1024px) {
-    body{
+    .light-green-Bc{
     display: grid;
     grid-template-rows: [header-start]122px [content-start] auto [footer-start]100px;
     grid-template-columns: [nav] 200px [main]auto [aside] 160px;
@@ -98,11 +98,16 @@
 .navig li{
     top: 0;
     right: 0;
+
+}
+.navig li{
+    padding-top: 10px;
+    list-style-type: none;
+
 }
 .navig li:hover {
     list-style-type: none;
     margin-left: 5px;
-    padding-bottom: 20px;
     transition: top .2s, box-shadow .5s;
     box-shadow: 3px 4px 2px #222;
     top: 8px;
