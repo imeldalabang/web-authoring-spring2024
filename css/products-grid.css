@@ -93,7 +93,7 @@
 
 .navig{
     grid-area: nav;
-    background-color:#EBEFB3;
+    background-color:var(--sandN);
 }
 .navig li{
     top: 0;

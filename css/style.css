@@ -114,3 +114,6 @@ a:active { color:var(--blackN); }
 .gray-txt{
     color: var(--grayh3);
 }
+.night-Bc{
+    background-color: var(--nightlight);
+}

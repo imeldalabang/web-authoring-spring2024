@@ -1,10 +1,11 @@
 :root{
-    --sandN:#E4F132 ;
+    --sandN:#c7da21 ;
     --light-greenB:#A7A984  ;
     --light-pinkAGd:#CFD7FC;
     --grayh3:#951E04   ;
     --darkPFGd:black;
-    --pinkh1:#2bc9db    ;
+    --nightlight:#b2c196;
+    --pinkh1:#2bc9db ;
     --brownN:rgba(58, 61, 100, 0.803);
     --redN: #a1acac;
     --light-blueN:rgba(218, 129, 39, 0.923);
