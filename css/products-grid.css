@@ -13,7 +13,7 @@
     footer{
         text-align: center;
     }
-    .navig li {
+    .navig a {
         list-style-type: none;
         margin-left: 5px;
         padding-bottom: 10px;
@@ -54,7 +54,7 @@
         grid-area: nav;
         background: none;
     }
-    .navig li {
+    .navig a {
         list-style-type: none;
         margin-left: 5px;
         padding-bottom: 20px;
@@ -91,21 +91,16 @@
     margin-left: 0%;
 }
 
-.navig{
+.navig {
     grid-area: nav;
     background-color:var(--sandN);
 }
-.navig li{
+.navig a{
     top: 0;
     right: 0;
 
 }
-.navig li{
-    padding-top: 10px;
-    list-style-type: none;
-
-}
-.navig li:hover {
+.navig a:hover {
     list-style-type: none;
     margin-left: 5px;
     transition: top .2s, box-shadow .5s;

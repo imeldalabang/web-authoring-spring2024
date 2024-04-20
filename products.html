@@ -7,10 +7,11 @@
     <link href="fontawesomeweb/css/fontawesome.css" rel="stylesheet">
     <link href="fontawesomeweb/css/brands.css" rel="stylesheet">
     <link href="fontawesomeweb/css/solid.css" rel="stylesheet">
-    <link href="css/triadic.css" rel="stylesheet">
+    <link href="css/triadic.css" rel="stylesheet" id="color">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/layout.css" rel="stylesheet">
     <link href="css/products-grid.css" rel="stylesheet">
+    <script src="js/java.js" defer> </script>
     <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
@@ -36,13 +37,18 @@
         <img src="images/laptoplogo.png" alt="this_guy_logo">
         <h1 class="color pink-txt">WEB DEVELOPMENT ARTICLES</h1>
     </header>
-    <nav class="navig sandBc">
-        <ul>
-        <li><a href="index.html"><i class="fa-solid fa-house"></i>HOME</a></li>
-        <li><a href="blog.html"><i class="fa-solid fa-blog"></i>BLOG</a></li>
-        <li><a href="test.html"><i class="fa-solid fa-pen"></i>RESUME</a></li>
-        <li><a href="products.html"><i class="fa-brands fa-product-hunt"></i>PRODUCTS</a></li>
-        </ul>
+    <nav class="navig sandBc topnav" id="myTopnav">
+        
+        <a href="index.html"><i class="fa-solid fa-house"></i>HOME</a>
+        <a href="blog.html"><i class="fa-solid fa-blog"></i>BLOG</a>
+        <a href="test.html"><i class="fa-solid fa-pen"></i>RESUME</a>
+        <a href="products.html"><i class="fa-brands fa-product-hunt"></i>PRODUCTS</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        
+        <button onClick="changeStyle('css/complementary.css');">Apply New Style</button>
+        <button onClick="changeStyle('css/triadic.css');">Apply Old Style</button>
     </nav>
     <main class="middle">
         <h2 class="family"> WEBSITES ARTICLES</h2>
