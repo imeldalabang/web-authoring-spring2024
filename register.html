@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact-us</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="fontawesomeweb/css/solid.css" rel="stylesheet">
+    <link href="fontawesomeweb/css/brands.css" rel="stylesheet">
+    <link href="fontawesomeweb/css/fontawesome.css" rel="stylesheet">
+    <link href="css/triadic.css" rel="stylesheet">
+    <link href="css/layout.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+</head>
+
+<body class="bg-dark-subtle m-3 md:604px">
+    <header>
+        <img src="images/laptoplogo.png" class="float-end" alt="this_guy_logo">
+        <h1 class="container-fluid bg-success p-4 m-2 text-left  fw-bold text-info"> GET IN TOUCH</h1>
+    </header>
+    <nav class="navbar navbar-expand-lg">
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html"><i class="fa-solid fa-house"></i>HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="blog.html"> <i class="fa-solid fa-blog"></i>BLOG</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="test.html"><i class="fa-solid fa-pen"></i>RESUME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="products.html"><i class="fa-brands fa-product-hunt"></i>PRODUCTS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="test.html"> <i class="fa-solid fa-registered"></i>REGISTRATION</a>
+              </li>
+            </ul>
+          </div>
+      </nav>
+    <fieldset  class="border border-primary p-4 rounded  border-5">
+        <legend>Please fill the form. </legend>
+        <form id="myMailerForm" action="mailto:imeldalab20@gmail.com" method="post">
+          <h3> Personnal details</h3>
+          <p class="mb-3">
+            <label  class="form-label" for="firstname"> First Name </label>
+            <input class="form-control" type="text" name="firstname" id="firstname" required autofocus>
+          </p>
+          <p class="mb-3">
+            <label  class="form-label" for="lastname"> Last Name </label>
+            <input class="form-control" type="text" name="lastname" id="lastname" required>
+            </p>
+            <p class="mb-3">
+            <label  class="form-label" for="email"> Email</label>
+            <input class="form-control" type="email" name="email" id="email" required>
+            </p>
+            <p>
+            <label  class="form-label" for="password"> Password</label>
+            <input class="form-control" type="password" id="password" name="password" required>
+            </p>
+            <p class="mb-3">
+            <label  class="form-label" for="phone"> Phone </label>
+            <input class="form-control" name="phone" type="text" id="phone" placeholder="123-456-7890"
+                pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+            </p>
+            <p>
+          <label for="movies"> OWEN WILSON'S MOVIES</label><select name="movies" id="movies">
+              <option value="">&larr;&nbsp;CHOOSE YOUR FAVORITE MOVIE&nbsp;&rarr;</option>
+              <option value="1">SHANGHAI NOON</option>
+              <option value="2">ZOOLANDER</option>
+              <option value="3">STARSKY & HUTCH</option>
+              <option value="4">WEDDING CRASHERS</option>
+              <option value="5">YOU,ME AND DUPREE</option>
+              <option value="6">HOW DO YOU KNOW</option>
+              <option value="7">THE BIG YEAR</option>
+              <option value="8">MARRY ME</option>
+            </select>
+            </p>
+
+            <p class="mb-3">
+            <label class="form-label" for="color">Your favorite color</label>
+            <input class="form-check-input" type="color" id="color">
+            </p>
+
+            <h4>HOW DO YOU WANT US TO GET IN TOUCH WITH YOU?</h4>
+            <p class="form-check">
+              <label  class="form-check-label" title="Select if it is 1."> Your email address <input class="form-check-input" type="radio" name="request" checked></label>
+              <br>
+              <label  class="form-check-label" title="Select if it is 2."> Your phone number(calls or messages) <input class="form-check-input" type="radio" name="request"></label>
+              <br>
+
+            <p class="form-check">
+              <label  class="form-check-label" for="toreceivednotifications"> Check if you want to receive notifications about any updates on the site</label>
+              <input class="form-check-input form-control" type="checkbox" name="to received notifications" id="toreceivednotifications" checked>
+            </p>
+
+            <p class="mb-3 form-check">
+                <label class="form-check-label" for="date"> Present date</label>
+                <input type="date" class="form-control" id="date" >
+            </p>
+            <p class="mb-3 fw-bold">Click the start over button down to erase all your information if
+                needed.</p>
+
+            <P class="mb-3">
+              <input type="reset" class="btn  btn-secondary" value="Start Over">
+            </P>
+
+            <p class="mb-3 fw-bold">Click the register button down to submit your
+                request.Thanks!!!</p>
+                <p class="mb-3">
+                    <input type="submit" class="btn btn-success" value="Register">
+                  </p>
+
+              </form>
+            </fieldset>
+    <footer>
+    </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+
+</html>
